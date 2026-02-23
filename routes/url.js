@@ -7,4 +7,4 @@ router.get('/:sortId',handlePostNew)
 router.get('/analytics/:sortId',handleGetAnalytics)
 
 
-module.exports=router;
+module.exports={router};
